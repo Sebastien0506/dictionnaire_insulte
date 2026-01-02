@@ -39,3 +39,51 @@ body {
 p {
     text-align: center;
 }
+
+h1 {
+    text-align: center;
+    margin-top: 2%;
+}
+
+.liste {
+    display: flex;
+    justify-content: center;
+}
+
+.burger {
+    display: none;
+    cursor: pointer;
+}
+#burger-toggle {
+    display: none;
+}
+@media screen and (max-width: 768px) {
+    .container {
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+    .burger {
+        display: block;
+    }
+    .burger img {
+        width: 30px;
+    }
+
+    nav {
+        display: none;
+        width: 100%;
+        flex-direction: column;
+        text-align: center;
+        margin-top: 10px;
+    }
+
+    nav a {
+        padding: 10px 0;
+        display: block;
+    }
+
+    #burger-toggle:checked + .burger + nav {
+        display: flex;
+    }
+}
