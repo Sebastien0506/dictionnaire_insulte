@@ -4,24 +4,35 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="../style.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
     <title>Document</title>
 </head>
 <body>
-    <input type="checkbox" id="burger-toggle">
-    <label for="burger-toggle" class="burger">
-        <img src="../images/burger-bar.png" alt="">
-    </label>
-    <nav>
-        <a href="/">Acceuil</a>
-        <a href="../sebou/presentation.html">Sebou</a>
-    </nav>
-    <h1>Mes phrases hard</h1>
-    <div class="liste">
-        <ul>
-            <li>Se faire refaire le fiac</li>
-            <li>Mettre la canette dans le distributeur</li>
-            <li>Faire tomber la canette</li>
-        </ul>
-    </div>
+    
+    <nav class="navbar navbar-expand-lg bg-body-tertiary">
+        <div class="container-fluid">
+          
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="/index.html">Accueil</a>
+              </li>
+              
+            </ul>
+          </div>
+        </div>
+      </nav>
+    <h1 style="margin-top: 2%;">Mes phrases hard</h1>
+    
+    <ul class="list-group mt-5">
+        <li class="list-group-item">Se faire refaire le fiac</li>
+        <li class="list-group-item">Mettre la canette dans le distributeur</li>
+        <li class="list-group-item">Faire tomber la canette</li>
+    </ul>
+    <a href="soft.html"><button class="btn btn-primary mt-2">soft</button></a>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js" integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI" crossorigin="anonymous"></script>
 </body>
 </html>
